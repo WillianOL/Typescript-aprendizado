@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "strict": true, // Já vem incluso no strict mode.
+    "strictNullChecks": true, // sem isso o typescript assume que qualquer valor pode ser null | undefined
+  }
+}
