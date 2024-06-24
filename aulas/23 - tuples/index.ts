@@ -20,6 +20,6 @@ function pegarTexto(seletor: string) {
 const botao = pegarTexto('button')
 
 if(botao) {
-  // botao[0] = - Erro pois o as const torna os dados apenas para leitura, não pode modificar
+  // botao[0] = "" - Erro pois o as const torna os dados apenas para leitura, não pode modificar
   const [botaoElemento, botaoTexto] = botao
 }
