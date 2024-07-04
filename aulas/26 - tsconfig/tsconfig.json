@@ -1,0 +1,36 @@
+{
+  // compila ao salvar
+  "compileOnSave": true,
+  // opções do compilador
+  "compilerOptions": {
+    // versão do javascript gerado
+    "target": "ESNext",
+    // versão do type module
+    "module": "ESNext",
+    // Definição de bibliotecas. No caso a ESNest e DOM
+    "lib": ["ESNext", "DOM"],
+    // Gera o source map ao compilar
+    "sourceMap": true,
+    // noEmit - compilação
+    // Permitir importação de arquivos JS
+    "allowJs": true,
+    // remove comentários
+    "removeComments": true,
+    // modo estrito (possui outras opções, se essa for true o resto é true)
+    "strict": true,
+    // do modo estrito - não ter dados que são esplicitamente any
+    "noImplicitAny": true,
+    // verifica a possibiliade do dado ser null ou undefined
+    "strictNullChecks": true,
+    // nescessário declarar o tipo do this(primeiro argumento)
+    "noImplicitThis": true,
+    // indica a possibilidade de um retorno ser undefined
+    "noImplicitReturns": true,
+    // arquivo onde ficaram os arquivos compilados
+    "outDir": "dist"
+  },
+  // compila o que estiver na pasta selecionada
+  "include": ["src"],
+  // não compila o que estiver na pasta selecionada
+  "exclude": ["node_modules"]
+}
